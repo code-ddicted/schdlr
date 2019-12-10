@@ -1,16 +1,28 @@
 import React from 'react';
+import Popup from 'reactjs-popup';
 import './css/UI.css';
 
 function Dash(){
+  const Pop = () => (
+    <Popup
+      trigger={<button className="new-button"> Add </button>}
+      modal
+      closeOnDocumentClick
+    >
+      <span className="my-modal"> Modal content </span>
+    </Popup>
+  );
   var time=new Date().toLocaleTimeString();
   var today="05";
   var completed="00";
     return(
       <div className="Dash Card">
       <br></br>
+
       <div className="block">
-      <button className="btn btn-dark new-button" >Add</button>
+      <Pop />
       </div>
+
       <span className="timer">{time}</span>
       <div className="card-body">
       <div className="activity-wrap">

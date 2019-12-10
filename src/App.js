@@ -6,12 +6,11 @@ import Second from './View/Second.jsx';
 
 function App() {
   return (
-      <div className="row">
+      <div className="container-fluid">
 
       <div className="First wrap">
       <First/>
       </div>
-
       <div className="Second wrap">
       <Second/>
       </div>

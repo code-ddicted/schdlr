@@ -2,7 +2,7 @@ import React from 'react';
 import './css/UI.css';
 
 function Head(){
-  var name="Schdlr App";
+  var name="Schdlr";
   var id="Under Development";
   const myStyle={
     color:"orange"
