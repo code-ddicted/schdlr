@@ -1,8 +1,12 @@
-## Developer
+# Developer
 
-### Antony O.
-#### Onyango
+## Antony O. Onyango
 
-## Collaborate
+### Contact
 
 Gmail : antony.otieno.onyango
+
+
+### About
+
+Web Based Task Scheduling Application.
