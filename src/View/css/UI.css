@@ -1,0 +1,130 @@
+body{
+width: 100%;
+height: 100%;
+padding: 20px;
+background-color: yellow;
+
+position: absolute;
+}
+#root{
+  padding: 10px;
+  width: auto;
+  height: auto;
+  background-color: yellow;
+  position: relative;
+}
+.container-fluid{
+}
+.wrap{
+  max-width: 800px;
+  height: 620px;
+  margin: 4px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  background-color: orange;
+  float: left;
+}
+.block{
+  display: inline-block;
+}
+.Head{
+background-color: black;
+color:white;
+}
+.img {
+  width: 80px;
+  height: 80px;
+  margin: 15px;
+  border-radius: 40px;
+  background-color: grey;
+  float: left;
+}
+.First{
+  overflow-y: hidden;
+  float: left;
+  width: 330px;
+  border-top-left-radius:24px;
+  border-bottom-left-radius:24px;
+  margin-right:10px;
+}
+.Second{
+  overflow-y: hidden;
+  width: 800px;
+  border-top-right-radius:24px;
+  border-bottom-right-radius:24px;
+}
+.user{
+  text-align: center;
+  font-weight: 400;
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.days{
+  font-size: 17px;
+  margin: 2px;
+}
+.card-body{
+  text-align: center;
+  font-weight: 400;
+}
+.Dash{
+  background-color: orange;
+  color:rgb(59, 56, 56);
+  font-size: 22px;
+}
+.timer{
+  font-weight: 550;
+  margin-left: 8px;
+  color: rgb(59, 56, 56);
+}
+.new-button{
+  margin: 15px;
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: rgb(59, 56, 56);
+  color: orange;
+}
+.clear{
+  margin-bottom: 26px;
+}
+.activity-wrap{
+display: flex;
+flex-direction: row;
+margin-top: 35px;
+font-size: 23px;
+}
+.activity{
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 550;
+}
+.Display{
+  height: 50px;
+  background-color: black;
+  color: rgb(59, 56, 56);
+}
+.Content{
+  width: inherit;
+  height: inherit;
+  overflow: scroll;
+  overflow-y:visible;
+  background-color: black;
+}
+.list{
+  margin: 1.7px;
+  padding: 0.8px;
+  background-color: #ffe000;
+  border-radius: 5px;
+  height:50.5px;
+  overflow: hidden;
+}
+.title{
+  color: black;
+  font-size: 15px;
+}
+.desc{
+ font-size: 13px;
+ color: rgb(59, 56, 56);
+}
