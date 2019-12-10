@@ -1,5 +1,5 @@
 # Website
-### https://code-ddicted.github.io/schdlr/
+### https://schdlr-app.herokuapp.com/
 
 # Developer
 
