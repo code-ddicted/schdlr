@@ -9,9 +9,10 @@ position: absolute;
   height: auto;
   background-color: yellow;
   position: relative;
+  margin:auto;
 }
 .container-fluid{
-  margin:auto;
+  align-self: auto;
 }
 .wrap{
   margin: 0px;
