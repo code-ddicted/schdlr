@@ -9,7 +9,7 @@ function Dash(){
       modal
       closeOnDocumentClick
     >
-      <span className="my-modal"> Modal content </span>
+      <span className="my-modal"> Under Development </span>
     </Popup>
   );
   var time=new Date().toLocaleTimeString();
