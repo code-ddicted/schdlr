@@ -4,7 +4,10 @@ height: 100%;
 background-color: yellow;
 overflow-x: hidden;
 overflow-y: hidden;
-padding: 20px;
+
+}
+.root{
+  position: relative;
 }
 .wrap{
   margin: 0px;
@@ -12,23 +15,27 @@ padding: 20px;
   scroll-behavior: smooth;
   background-color: orange;
   float: left;
-}.block{
+}
+.block{
   display: inline-block;
 }
-.Head{
-background-color: black;
-color: white;
+.Display {
+  text-align: center;
+  height: auto;
+  padding-top: 5px;
+  color: orange;
+  background-color: black;
+  border-bottom: 0.7px solid orange;
 }
-.img {
-  width: 120px;
-  height: 120px;
-  margin: 15px;
-  border-radius: 60px;
-  background-color: grey;
-  float: left;
+.icons {
+  margin-right: 30px;
+  margin-left: 30px;
+  color: orange;
+  font-size: 20px;
+  padding: 10px;
 }
-.root{
-  position: relative;
+.icons:hover {
+  color: orange;
 }
 .frame{
   position: absolute;
@@ -45,14 +52,17 @@ color: white;
   margin-left: 0px;
   border-radius: 8px;
 }
-.Display {
-  text-align: center;
-  height: auto;
-  padding: 3px;
-  color: white;
+.Head{
+background-color: black;
+color: white;
 }
-a {
-  text-underline-position: initial;
+.img {
+  width: 120px;
+  height: 120px;
+  margin: 15px;
+  border-radius: 60px;
+  background-color: grey;
+  float: left;
 }
 .user{
   text-align: center;
