@@ -3,7 +3,14 @@ import './css/UI.css';
 import List from './List.jsx';
 
 class Content extends React.Component{
+
     render(){
+       {/*
+  figure useEffect()
+  figure componentDidMount,componentDidUpdate,componentUpdated
+  figure state and props
+  figure make fetch() call to apis
+      */}
       const activities=[
         {
           "title":"Morning Activity",
@@ -22,7 +29,7 @@ class Content extends React.Component{
           "desc":"Add features to my task scheduling application: configure mail server, and sms integration."
         }
       ];
-
+     
       return (
         <div>
         {

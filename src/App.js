@@ -1,21 +1,26 @@
 import React from 'react';
+import {BrowserRouter,Switch,Route} from 'react-router-dom';
+
 import './App.css';
+import Display from './View/Display.jsx';
 import First from './View/First.jsx';
 import Second from './View/Second.jsx';
 
 
 function App() {
   return (
-      <div className="container-fluid">
+      <BrowserRouter>
+      <div className="frame wrap">
 
-      <div className="First wrap">
-      <First/>
-      </div>
-      <div className="Second wrap">
-      <Second/>
-      </div>
+      <Display></Display>
+      {/*setup main page routing for navigation button*/}
+      <Switch>
+        <Route path="/" exact component={First}/>
+        <Route path="/tasks" exact component={Second}/>
+      </Switch>
 
-      </div>
+      </div>>
+      </BrowserRouter>
   );
 }
 

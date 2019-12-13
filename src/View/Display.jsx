@@ -4,8 +4,7 @@ import './css/UI.css';
 function Display(){
     return(
       <div className="Display Card">
-      <br></br>
-      Back
+      <nav> <a href="/">home</a> | <a href="/tasks">tasks</a> </nav>
       </div>
   );
 }

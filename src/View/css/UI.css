@@ -4,16 +4,6 @@ height: 100%;
 background-color: yellow;
 position: absolute;
 }
-#root{
-  width: auto;
-  height: auto;
-  background-color: yellow;
-  position: relative;
-  margin:auto;
-}
-.container-fluid{
-  align-self: auto;
-}
 .wrap{
   margin: 0px;
   overflow-y: scroll;
@@ -29,26 +19,31 @@ background-color: black;
 color:white;
 }
 .img {
-  width: 80px;
-  height: 80px;
+  width: 120px;
+  height: 120px;
   margin: 15px;
-  border-radius: 40px;
+  border-radius: 60px;
   background-color: grey;
   float: left;
 }
-.First{
+.frame{
   overflow-y: hidden;
   width: 100%;
-  max-width:500px;
-  height: 550px;
-  margin-right:800px;
+  max-width:300px;
+  height: 600px;
+  margin-right:100px;
+  margin-top: 20px;
+  margin-left: 500px;
+  border-radius: 8px;
 }
-.Second{
-  overflow-y: hidden;
-  width: 100%;
-  max-width:500px;
-  height: 620px;
-  margin:auto;
+.Display {
+  text-align: center;
+  height: auto;
+  padding: 3px;
+  color: white;
+}
+a {
+  text-underline-position: initial;
 }
 .user{
   text-align: center;
@@ -101,11 +96,6 @@ font-size: 23px;
   margin-left: auto;
   margin-right: auto;
   font-weight: 550;
-}
-.Display{
-  height: 50px;
-  background-color: black;
-  color: rgb(59, 56, 56);
 }
 .Content{
   width: inherit;
