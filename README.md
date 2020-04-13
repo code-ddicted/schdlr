@@ -1,9 +1,9 @@
 # Website
-### https://schdlr-app.herokuapp.com/
+### https://schdler.herokuapp.com/
 
 # Developer
 
-#### Antony O. Onyango
+ Antony O. Onyango
 
 ### Contact
 
