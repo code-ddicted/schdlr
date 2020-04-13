@@ -11,4 +11,4 @@ Gmail : antony.otieno.onyango
 
 ### About
 
-Web Based Task Scheduling Application.
+React web based task scheduling application UI concept
