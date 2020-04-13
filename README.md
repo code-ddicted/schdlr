@@ -1,7 +1,7 @@
 # Website
 ### https://schdler.herokuapp.com/
 
-# Developer
+### Developer
 
  Antony O. Onyango
 
